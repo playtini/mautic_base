@@ -105,6 +105,9 @@
   "config": {
     "sort-packages": true,
     "secure-http": false,
+    "audit": {
+      "block-insecure": false
+    },
     "allow-plugins": {
       "composer/installers": true,
       "composer/package-versions-deprecated": true,
